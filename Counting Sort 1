@@ -15,7 +15,6 @@ import sys
 
 r_list ={}
 nr =1
-#result={}
 result =[]
 
 def countingSort(arr):
