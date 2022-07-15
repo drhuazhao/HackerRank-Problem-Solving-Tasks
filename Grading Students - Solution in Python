@@ -39,11 +39,11 @@ def gradingStudents(grades):
             else:
                 r.append(i)
         
-        elif i<=37:
-            #print(i)
+        else:
+        
             r.append(i)
-            #rseult = i
-            #print(result)
+            
+            
             
     
     return(r)
