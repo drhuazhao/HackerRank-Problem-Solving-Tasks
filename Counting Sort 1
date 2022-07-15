@@ -1,0 +1,56 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'countingSort' function below.
+#
+# The function is expected to return an INTEGER_ARRAY.
+# The function accepts INTEGER_ARRAY arr as parameter.
+#
+
+r_list ={}
+nr =1
+#result={}
+result =[]
+
+def countingSort(arr):
+    # Write your code here
+
+    for i in range(n):
+        
+
+        if arr[i] in r_list.keys():
+            r_list[arr[i]] = r_list[arr[i]] + 1
+        else:
+            r_list[arr[i]] = nr
+        
+
+    for i in range(0,100):
+        if i in r_list.keys():
+             result.append(r_list[i])
+        else:
+            result.append(0)
+            
+ 
+    return(result)
+            
+    
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    result = countingSort(arr)
+
+    fptr.write(' '.join(map(str, result)))
+    fptr.write('\n')
+
+    fptr.close()
