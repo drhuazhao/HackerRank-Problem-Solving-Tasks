@@ -20,27 +20,27 @@ def gradingStudents(grades):
         
         if i > 37:
             tens = (i//10)*10
-            #print(tens+5-i)
+            
             
             if (tens+5 - i) <3 and (tens+5 - i) >0:
                 
                 result = tens+5
-                #print(result)
                 r.append(result)
+                
             elif (tens+10 - i) < 3:
                 
                 result = tens+10
-                #print(result)
                 r.append(result)
+                
             elif (tens+10 - i) == 3 or (tens+5 - (i)) == 3:
+                
                 result = i
-                #print(result)
                 r.append(result)
+                
             else:
                 r.append(i)
         
         else:
-        
             r.append(i)
             
             
