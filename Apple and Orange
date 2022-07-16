@@ -37,7 +37,6 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
     
     for i in distance_apples:
         if i>= s and i<= t:
-            #print(i)
             count_apples+=1
         else:
             pass
