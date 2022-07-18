@@ -20,24 +20,24 @@ import sys
 def kangaroo(x1, v1, x2, v2):
     # Write your code here
     
-    n_times =1
-    distancex1 = x1+v1
-    distancex2 = x2+v2
-    
-    
-    if abs(distancex2/distancex1) >3:
+    kangaroo_location = x1-x2
+    moves_meters = v2-v1
+    if moves_meters==0:
         return('NO')
-        
     else:
-        while 1<=n_times<=10000:
-            
-            if distancex1 == distancex2:
-                return('YES')
+        
+        r=  kangaroo_location/moves_meters
+        print(r)
+        if r>0:
+            if r.is_integer():
                 
+                return('YES')
             else:
-                distancex1 = v1+ distancex1 
-                distancex2 = v2 + distancex2
-            n_times+=1
+                return('NO')
+        else:
+            return('NO')
+  
+        
             
     
     
