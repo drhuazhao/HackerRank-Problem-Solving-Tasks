@@ -27,7 +27,7 @@ def kangaroo(x1, v1, x2, v2):
     else:
         
         r=  kangaroo_location/moves_meters
-        print(r)
+       
         if r>0:
             if r.is_integer():
                 
