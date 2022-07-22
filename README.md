@@ -1,3 +1,3 @@
 # HackerRank-Problem-Solving-Tasks
 
-My solutions for problem-solving challenges on HackerRank :)
+Here are my solutions to problem-solving challenges on HackerRank :)
