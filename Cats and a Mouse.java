@@ -10,9 +10,6 @@ public class Solution {
 
     // Complete the catAndMouse function below.
     
-    //1. check difference between each cat with the mouse
-    //2. return the smallest differ result 
-    
     static String catAndMouse(int x, int y, int z) {
         int A_dis = Math.abs(z-x);
         System.out.println(A_dis);
