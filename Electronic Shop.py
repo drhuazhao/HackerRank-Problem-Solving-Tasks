@@ -19,7 +19,6 @@ def getMoneySpent(keyboards, drives, b):
             sum_results.append(sum)
     
     sum_result_list = sorted(sum_results)[::-1]
-    print(sum_result_list)
             
     for i in sum_result_list:
         if i >b:
