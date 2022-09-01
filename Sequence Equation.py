@@ -16,7 +16,7 @@ import sys
 def permutationEquation(p):
     # Write your code here
     
-    index =0 
+
     dict_first_list ={}
     result_list =[]
     for i in range(len(p)):
