@@ -16,7 +16,7 @@ def jumpingOnClouds(c, k):
         e = e-3
      else:
         e = e-1
-     list_arrived_index =[]
+     
      
      while q:
         
