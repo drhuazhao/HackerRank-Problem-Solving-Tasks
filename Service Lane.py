@@ -21,7 +21,7 @@ def serviceLane(n, cases):
     result_list =[]
     for i in cases:
        
-       
+        snd = i[1]+1
         result = (min(width[i[0]:snd]))
         result_list.append(result)
         
